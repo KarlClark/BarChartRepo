@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BarChart">
+        <attr name="chartLabelTextSize" format="dimension"/>
+        <attr name="axisLabelTextSize" format="dimension"/>
+        <attr name="xAxisLabelTextSize" format="dimension"/>
+        <attr name="yAxisLabelTextSize" format="dimension"/>
+        <attr name="tickMarkLabelTextSize" format="dimension"/>
+        <attr name="barLabelTextSize" format="dimension"/>
+        <attr name="barValueTextSize" format="dimension"/>
+
+        <attr name="textColor" format="color"/>
+        <attr name="chartLabelTextColor" format="color"/>
+        <attr name="axisLabelTextColor" format="color"/>
+        <attr name="xAxisLabelTextColor" format="color"/>
+        <attr name="yAxisLabelTextColor" format="color"/>
+        <attr name="tickMarkLabelTextColor" format="color"/>
+        <attr name="barLabelTextColor" format="color"/>
+        <attr name="barValueTextColor" format="color"/>
+
+        <attr name="frameColor" format="color"/>
+        <attr name="frameWidth" format="dimension"/>
+
+
+        <attr name="LabelStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+            <flag name="bold_italic" value="3" />
+        </attr>
+
+        <attr name="chartLabelStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+            <flag name="bold_italic" value="3" />
+        </attr>
+
+        <attr name="xAxisLabelStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+            <flag name="bold_italic" value="3" />
+        </attr>
+
+        <attr name="yAxisLabelStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+            <flag name="bold_italic" value="3" />
+        </attr>
+
+        <attr name="tickMarkLabelStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+            <flag name="bold_italic" value="3" />
+        </attr>
+
+        <attr name="barLabelStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+            <flag name="bold_italic" value="3" />
+        </attr>
+
+        <attr name="barValueStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+            <flag name="bold_italic" value="3" />
+        </attr>
+
+        <attr name="majorTickMarkLength" format="dimension"/>
+        <attr name="minorTickMarkLength" format="dimension"/>
+        <attr name="tickMarkThickness" format="dimension"/>
+        <attr name="majorTickMarkThickness" format="dimension"/>
+        <attr name="minorTickMarkThickness" format="dimension"/>
+        <attr name="tickMarkColor" format="color"/>
+        <attr name="majorTickMarkColor" format="color"/>
+        <attr name="minorTickMarkColor" format="color"/>
+
+        <attr name="lineThickness" format="dimension"/>
+        <attr name="majorLineThickness" format="dimension"/>
+        <attr name="minorLineThickness" format="dimension"/>
+        <attr name="lineColor" format="color"/>
+        <attr name="majorLineColor" format="color"/>
+        <attr name="minorLineColor" format="color"/>
+
+
+        <attr name="minorTickMarkNumber" format="integer"/>
+
+        <attr name="barColor" format="color"/>
+        <attr name="barWidth" format="dimension"/>
+        <attr name="barSpacingWidth" format="dimension"/>
+
+        <attr name="barLabelTextAngle" format="integer"/>
+
+        <attr name="chartLabel" format="string"/>
+        <attr name="yAxisLabel" format="string"/>
+        <attr name="xAxisLabel" format="string"/>
+
+        <attr name="tickMarkLabelFormat" format="string"/>
+        <attr name="barValueFormat" format="string"/>
+
+        <attr name="chartBackground" format="color"/>
+
+        <attr name="framed" format="boolean"/>
+        <attr name="hasLeftTickMarks" format="boolean"/>
+        <attr name="hasRightTickMarks" format="boolean"/>
+        <attr name="hasLeftLables" format="boolean"/>
+        <attr name="hasRightLabels" format="boolean"/>
+        <attr name="hasLines" format="boolean"/>
+        <attr name="hasBarValues" format="boolean"/>
+    </declare-styleable>
+</resources>
